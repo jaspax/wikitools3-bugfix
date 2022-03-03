@@ -2,7 +2,7 @@
 name = "wikitools3"
 version = "3.0.1"
 description = "Python package for interacting with a MediaWiki wiki. It is used by WikiTeam for archiving MediaWiki wikis."
-authors = ["wikitools3 Contributors <https://github.com/elsiehupp/wikitools3/graphs/contributors>"]
+authors = ["Alex Zaddach <mrzmanwiki@gmail.com>", "Elsie Hupp <wikitools3@elsiehupp.com>"]
 maintainers = ["Elsie Hupp <wikitools3@elsiehupp.com>"]
 readme = "README.md"
 repository = "https://github.com/elsiehupp/wikitools3"

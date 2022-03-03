@@ -18,13 +18,13 @@
 
 ## Available modules
 
-* [`api.py`](./wikitools3/api.py) - Contains the `APIRequest` class, for doing queries directly, see API examples below
-* [`wiki.py`](./wikitools3/wiki.py) - Contains the `Wiki` class, used for logging in to the site, storing cookies, and storing basic site information
-* [`page.py`](./wikitools3/page.py) - Contains the `Page` class for dealing with individual pages on the wiki. Can be used to get page info and text, as well as edit and other actions if enabled on the wiki
-* [`category.py`](./wikitools3/category.py) - `Category` is a subclass of `Page` with extra functions for working with categories
-* [`wikifile.py`](./wikitools3/wikifile.py) - `File` is a subclass of `Page` with extra functions for working with files - note that there may be some issues with shared repositories, as the pages for files on shared repos technically don't exist on the local wiki.
-* [`user.py`](./wikitools3/user.py) - Contains the `User` class for getting information about and blocking/unblocking users
-* [`pagelist.py`](./wikitools3/pagelist.py) - Contains several functions for getting a list of `Page` objects from lists of titles, pageids, or API query results
+* [`api.py`](https://github.com/elsiehupp/wikitools3/tree/v3.0.1/wikitools3/api.py) - Contains the `APIRequest` class, for doing queries directly, see API examples below
+* [`wiki.py`](https://github.com/elsiehupp/wikitools3/tree/v3.0.1/wikitools3/wiki.py) - Contains the `Wiki` class, used for logging in to the site, storing cookies, and storing basic site information
+* [`page.py`](https://github.com/elsiehupp/wikitools3/tree/v3.0.1/wikitools3/page.py) - Contains the `Page` class for dealing with individual pages on the wiki. Can be used to get page info and text, as well as edit and other actions if enabled on the wiki
+* [`category.py`](https://github.com/elsiehupp/wikitools3/tree/v3.0.1/wikitools3/category.py) - `Category` is a subclass of `Page` with extra functions for working with categories
+* [`wikifile.py`](https://github.com/elsiehupp/wikitools3/tree/v3.0.1/wikitools3/wikifile.py) - `File` is a subclass of `Page` with extra functions for working with files - note that there may be some issues with shared repositories, as the pages for files on shared repos technically don't exist on the local wiki.
+* [`user.py`](https://github.com/elsiehupp/wikitools3/tree/v3.0.1/wikitools3/user.py) - Contains the `User` class for getting information about and blocking/unblocking users
+* [`pagelist.py`](https://github.com/elsiehupp/wikitools3/tree/v3.0.1/wikitools3/pagelist.py) - Contains several functions for getting a list of `Page` objects from lists of titles, pageids, or API query results
 
 ## Further documentation
 
