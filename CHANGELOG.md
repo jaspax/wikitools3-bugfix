@@ -9,6 +9,7 @@
 * Removed `twine` from `pyproject.toml`
 * Tidied per-file attribution
 * Fixed Python 2 `urllib` syntax
+* Bumped minumum Python version to 3.8
 
 ## Earlier Versions
 
