@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "wikitools3"
-version = "3.0.0"
+version = "3.0.1"
 description = "Python package for interacting with a MediaWiki wiki. It is used by WikiTeam for archiving MediaWiki wikis."
-authors = ["Alex Zaddach <mrzmanwiki@gmail.com>", "Elsie Hupp <github at elsiehupp dot com>"]
+authors = ["wikitools3 Contributors <https://github.com/elsiehupp/wikitools3/graphs/contributors>"]
 maintainers = ["Elsie Hupp <wikitools3@elsiehupp.com>"]
 readme = "README.md"
 repository = "https://github.com/elsiehupp/wikitools3"
@@ -22,11 +22,8 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3"
+python = "^3.8"
 poster3 = "^0.8.1"
-
-[tool.poetry.dev-dependencies]
-twine = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

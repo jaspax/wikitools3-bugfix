@@ -1,6 +1,12 @@
 ﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Copyright 2008-2013 Alex Zaddach (mrzmanwiki@gmail.com)
+
+# Copyright 2008-2015 Alex Zaddach <mrzmanwiki@gmail.com>
+# Copyright 2008 Brandon Weeks <https://github.com/brandonweeks>
+# Copyright 2014 Mark A. Hershberger <https://github.com/hexmode>
+# Copyright 2015 Thomas Jones-Low <https://github.com/tjoneslo>
+# Copyright 2016 MZMcBride <https://github.com/mzmcbride>
+# Copyright 2021 Elsie Hupp <wikitools3@elsiehupp.com>
 
 # This file is part of wikitools3.
 # wikitools3 is free software: you can redistribute it and/or modify
@@ -22,7 +28,7 @@ import pickle
 import re
 import time
 import warnings
-from urllib import parse
+from urllib.parse import urlparse
 from urllib.request import HTTPPasswordMgrWithDefaultRealm
 
 import wikitools3.api as api
@@ -76,7 +82,7 @@ class Wiki:
         self.apibase = url
         self.cookies = WikiCookieJar()
         self.username = ""
-        urlbits = parse(self.apibase)
+        urlbits = urlparse(self.apibase)
         self.domain = "://".join([urlbits.scheme, urlbits.netloc])
         if httpuser is not None:
             if httppass is None:

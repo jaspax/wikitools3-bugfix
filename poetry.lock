@@ -11,8 +11,8 @@ poster3 = ["buildutils", "sphinx"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3"
-content-hash = "740bcec113e5c93070143646202dd102ef7ddf8f6c61d026719754044d544e60"
+python-versions = "^3.8"
+content-hash = "4a2e142252e13092ca71e3a20de2b1da5bcc6cb2d7478abf787cb4842ea792e7"
 
 [metadata.files]
 poster3 = [

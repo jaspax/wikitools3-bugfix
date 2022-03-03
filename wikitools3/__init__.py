@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
-# Copyright 2008-2013 Alex Zaddach (mrzmanwiki@gmail.com)
+
+# Copyright 2008-2013 Alex Zaddach <mrzmanwiki@gmail.com>
 
 # This file is part of wikitools3.
 # wikitools3 is free software: you can redistribute it and/or modify
@@ -16,6 +16,7 @@
 
 # You should have received a copy of the GNU General Public License
 # along with wikitools3.  If not, see <http://www.gnu.org/licenses/>.
+
 __all__ = ["wiki", "api", "page", "category", "user", "pagelist", "wikifile"]
 from wikitools3.api import *
 from wikitools3.category import *

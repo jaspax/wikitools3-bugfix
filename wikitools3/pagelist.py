@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Copyright 2008-2013 Alex Zaddach (mrzmanwiki@gmail.com)
+
+# Copyright 2008-2014 Alex Zaddach <mrzmanwiki@gmail.com>
+# Copyright 2021 Elsie Hupp <wikitools3@elsiehupp.com>
 
 # This file is part of wikitools3.
 # wikitools3 is free software: you can redistribute it and/or modify
