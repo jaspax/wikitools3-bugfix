@@ -424,7 +424,7 @@ def urlencode(query, doseq=0):
             if isinstance(v, str):
                 v = quote_plus(v)
                 l.append(k + "=" + v)
-            elif v.type(str):
+            elif hasattr(v, 'type') and v.type(str):
                 # is there a reasonable way to convert to ASCII?
                 # encode generates a string, but "replace" or "ignore"
                 # lose information and "strict" can raise UnicodeError
